@@ -11,7 +11,7 @@ public class BlobMovement : MonoBehaviour
     void Start()
     {
         // Haal de Rigidbody2D-component op
-        rb = GetComponent<Rigidbody2D>(W);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
