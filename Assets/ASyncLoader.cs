@@ -7,6 +7,20 @@ using UnityEngine.SceneManagement;
 
 public class ASyncloader : MonoBehaviour
 {
-    [SerializeField] private GameObject
+    [Header("Menu Screens")]
+    [SerializeField] private GameObject LoadingScreen;
+    [SerializeField] private GameObject mainMenu;
+
+    [Header("Slider")]
+    [SerializeField] private Slider LoadingSlider;
+
+    public void LoadLevelBtn(string levelToLoad)
+    {
+        mainMenu.SetActive(false);
+        LoadingScreen.SetActive(true);
+
+        // Run the A Sync
+    }
+    
     
 }
