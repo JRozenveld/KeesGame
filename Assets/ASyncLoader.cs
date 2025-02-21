@@ -19,8 +19,19 @@ public class ASyncloader : MonoBehaviour
         mainMenu.SetActive(false);
         LoadingScreen.SetActive(true);
 
-        // Run the A Sync
+        StartCoroutine(LoadLevelASync(levelToLoad));
     }
     
-    
+    IEnumerator LoadLevelASync(string levelToLoad)
+    {
+        AsyncOperation loadOperation = SceneManager.LoadSceneAsync(levelToLoad);
+
+        while(!loadOperation.isDone)
+        {
+            float progressValue = Mathf.Clamp01(LoadOperation.progress / 0.9f);
+            loadingSlider.value = progressValue;
+            yield return null;
+        }
+    }
+
 }
