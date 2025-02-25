@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Luchtballon_0: 7198132755006813795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
