@@ -12,7 +12,7 @@ public class ASyncloader : MonoBehaviour
     [SerializeField] private GameObject mainMenu;
 
     [Header("Slider")]
-    [SerializeField] private Slider LoadingSlider;
+    [SerializeField] private Slider loadingSlider;
 
     public void LoadLevelBtn(string levelToLoad)
     {
@@ -29,7 +29,7 @@ public class ASyncloader : MonoBehaviour
 
         while(!loadOperation.isDone)
         {
-            float progressValue = Mathf.Clamp01(LoadOperation.progress / 0.9f);
+            float progressValue = Mathf.Clamp01(loadOperation.progress / 0.9f);
             loadingSlider.value = progressValue;
             yield return null;
         }
