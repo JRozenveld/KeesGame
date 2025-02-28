@@ -2896,7 +2896,7 @@ GameObject:
   - component: {fileID: 7770269401691531215}
   - component: {fileID: 5075956566196056331}
   m_Layer: 0
-  m_Name: lichtgroene blob
+  m_Name: lichtgroene blob protoype
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

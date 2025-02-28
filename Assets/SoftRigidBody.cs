@@ -1,30 +1,31 @@
-using System.Linq;
 using UnityEngine;
 
 public class SoftRigidBody : MonoBehaviour
 {
     private LineRenderer lineRenderer;
-    private Transform[] nodes;
+    private Transform[] nodes; // Bestaande nodes
 
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        nodes = GetComponentsInChildren<Transform>()
-            .Where(t => t != transform) // Hoofdobject uitsluiten
-            .OrderBy(t => Mathf.Atan2(t.position.y - transform.position.y, t.position.x - transform.position.x)) // Sorteren op hoek
-            .ToArray();
+        nodes = GetComponentsInChildren<Transform>();
 
+        // Verwijder het hoofdobject uit de lijst van nodes
+        nodes = System.Array.FindAll(nodes, node => node != transform);
+
+        // Stel de LineRenderer in op het aantal nodes
         lineRenderer.positionCount = nodes.Length + 1; // +1 om de lus te sluiten
     }
 
-
-  void Update()
+    void Update()
     {
+        // Werk de LineRenderer bij met de posities van de nodes
         for (int i = 0; i < nodes.Length; i++)
         {
             lineRenderer.SetPosition(i, nodes[i].position);
         }
-        // Laatste punt gelijk maken aan eerste om de cirkel te sluiten
+
+        // Sluit de cirkel door het laatste punt naar het eerste te zetten
         lineRenderer.SetPosition(nodes.Length, nodes[0].position);
     }
 }
