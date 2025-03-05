@@ -11,13 +11,12 @@ public class BackgroundMover : MonoBehaviour
     private int direction = -1; // Start by moving LEFT
     private SpriteRenderer spriteRenderer;
     private float timeCounter = 0f; // Tracks time for wave motion
+    private bool hasFlipped = false; // Keeps track of flip status
 
     void Start()
     {
         startPosition = transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
-
-        // Do NOT force a flip at the start. Keep the original sprite orientation.
     }
 
     void Update()
@@ -32,24 +31,25 @@ public class BackgroundMover : MonoBehaviour
         transform.position = new Vector3(transform.position.x, verticalMovement, transform.position.z);
 
         // Check if we need to flip direction
-        if (Mathf.Abs(transform.position.x - startPosition.x) >= maxDistance)
+        if (Mathf.Abs(transform.position.x - startPosition.x) >= maxDistance && !hasFlipped)
         {
             direction *= -1; // Reverse direction
             Flip();
+            hasFlipped = true; // Mark as flipped, so it doesn't flip again too soon
+        }
+
+        // Reset flip status if we pass the threshold (to allow flip again)
+        if (Mathf.Abs(transform.position.x - startPosition.x) < maxDistance)
+        {
+            hasFlipped = false;
         }
     }
 
     void Flip()
     {
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.flipX = !spriteRenderer.flipX; // Flip the sprite
-        }
-        else
-        {
-            Vector3 scale = transform.localScale;
-            scale.x *= -1;
-            transform.localScale = scale;
-        }
+        // Flip the object by changing scale
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 }
