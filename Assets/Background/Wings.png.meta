@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 36510df83e1ce5148a7cb12b118263fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5303247421530120293
+    second: Wings_0
+  - first:
+      213: -6152695234932995532
+    second: Wings_1
+  - first:
+      213: 989318750866808377
+    second: Wings_2
+  - first:
+      213: -8086401240233500016
+    second: Wings_3
+  - first:
+      213: 5413989868437924267
+    second: Wings_4
+  - first:
+      213: -5733256716768241773
+    second: Wings_5
+  - first:
+      213: 6983256190129097814
+    second: Wings_6
+  - first:
+      213: 2815324332376567130
+    second: Wings_7
+  - first:
+      213: -7656311499160045487
+    second: Wings_8
+  - first:
+      213: -6948701246014915294
+    second: Wings_9
+  - first:
+      213: -6599032065060073224
+    second: Wings_10
+  - first:
+      213: -8845254113009651132
+    second: Wings_11
+  - first:
+      213: 5836033204515245884
+    second: Wings_12
+  - first:
+      213: -8042832329278427350
+    second: Wings_13
+  - first:
+      213: -2788478351696508828
+    second: Wings_14
+  - first:
+      213: 9150690879535645428
+    second: Wings_15
+  - first:
+      213: -3922922013545277560
+    second: Wings_16
+  - first:
+      213: -6326166021234914656
+    second: Wings_17
+  - first:
+      213: 7235556838046196728
+    second: Wings_18
+  - first:
+      213: 8936966723833213955
+    second: Wings_19
+  - first:
+      213: -7509364253886935590
+    second: Wings_20
+  - first:
+      213: -6091672409957367012
+    second: Wings_21
+  - first:
+      213: -5369157684005231485
+    second: Wings_22
+  - first:
+      213: -8992267425014923272
+    second: Wings_23
+  - first:
+      213: 8622205074214536253
+    second: Wings_24
+  - first:
+      213: 1954982153102066576
+    second: Wings_25
+  - first:
+      213: -371605149085191560
+    second: Wings_26
+  - first:
+      213: 1629480560851686845
+    second: Wings_27
+  - first:
+      213: 1641118825041311374
+    second: Wings_28
+  - first:
+      213: -5773655719963574400
+    second: Wings_29
+  - first:
+      213: 6010676057974596756
+    second: Wings_30
+  - first:
+      213: -3168787822218422332
+    second: Wings_31
+  - first:
+      213: 6416249568051553003
+    second: Wings_32
+  - first:
+      213: 3606959382827518349
+    second: Wings_33
+  - first:
+      213: 7430266795396479075
+    second: Wings_34
+  - first:
+      213: 4554474431563617710
+    second: Wings_35
+  - first:
+      213: -8090327192684832204
+    second: Wings_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wings_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147a994cb0658094e9c5c4c56e7c3ed9
+      internalID: -424147786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 400
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8513cc58c1c7d584e82d534b8ea32988
+      internalID: 909697594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_2
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 401
+        width: 945
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81de997715d22fb4188e5df2c67140c2
+      internalID: -45369304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_3
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 400
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41725e2d7886a54ead89c4bf9434d9a
+      internalID: -746191304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_4
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 400
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e79d80f0142c848b83701400edec5c
+      internalID: 829096803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_5
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 400
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe5837242b39a47924e951f4908d04
+      internalID: 75922492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_6
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 400
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f71403b7343e9a4c83f051a8993acca
+      internalID: -1574154883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4441f8428181d4345b9362c13aaef084
+      internalID: -1477931498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_8
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f64d1c89beb414bb30cc295b9f26da
+      internalID: -1729364599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_9
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92453a2a9d4556f4781cf38fbc355bf4
+      internalID: -1262163500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_10
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4990d1d4860c70848b852343eb51b0c6
+      internalID: -1722895926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_11
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14b124f266826a42983e159de71b795
+      internalID: -359819719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_12
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68f928910012f24cafe4aece955a1d9
+      internalID: -395557435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_13
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 0
+        width: 945
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab905e1185246049b97c73fa8c28708
+      internalID: -1049251476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ceec8b5b19e89284baeeeaeba8ecca9b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wings_0: -424147786
+      Wings_1: 909697594
+      Wings_10: -1722895926
+      Wings_11: -359819719
+      Wings_12: -395557435
+      Wings_13: -1049251476
+      Wings_2: -45369304
+      Wings_3: -746191304
+      Wings_4: 829096803
+      Wings_5: 75922492
+      Wings_6: -1574154883
+      Wings_7: -1477931498
+      Wings_8: -1729364599
+      Wings_9: -1262163500
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
