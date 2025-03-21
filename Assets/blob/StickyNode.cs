@@ -9,7 +9,7 @@ public class StickyNode : MonoBehaviour
     private Transform stickySurface;
 
     // Dit is een statische teller per stickySurface-object
-    public static int maxNodes = 2; // Maximaal aantal nodes dat aan een surface kan vastplakken
+    public static int maxNodes = 3; // Maximaal aantal nodes dat aan een surface kan vastplakken
     private static Dictionary<Transform, int> stickySurfaceCounters = new Dictionary<Transform, int>();
 
     // Cooldown voor het opnieuw vastplakken
