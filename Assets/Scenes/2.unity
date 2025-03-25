@@ -625,8 +625,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16204bf969a0d2848a15898accde8123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   maxForce: 450
   chargeRate: 375
+=======
+  maxForce: 500
+  chargeRate: 250
+>>>>>>> parent of e56d74c (Update 2.unity)
   clickCooldown: 0
 --- !u!1 &219864251
 GameObject:
