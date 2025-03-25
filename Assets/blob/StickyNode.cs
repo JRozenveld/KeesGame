@@ -9,7 +9,7 @@ public class StickyNode : MonoBehaviour
     private Transform stickySurface;
 
     // Dit is een statische teller per stickySurface-object
-    public static int maxNodes = 3; // Maximaal aantal nodes dat aan een surface kan vastplakken
+    public static int maxNodes = 1; // Maximaal aantal nodes dat aan een surface kan vastplakken
     private static Dictionary<Transform, int> stickySurfaceCounters = new Dictionary<Transform, int>();
 
     // Cooldown voor het opnieuw vastplakken
@@ -137,12 +137,13 @@ public class StickyNode : MonoBehaviour
             stickCooldownTimer -= Time.deltaTime;
         }
 
-        // Als de linker muisknop wordt ingedrukt en de node vastzit, maak dan los
-        if (Input.GetMouseButtonDown(0) && isStuck)
+        // Als de linker muisknop wordt LOSGELATEN en de node vastzit, maak dan los
+        if (Input.GetMouseButtonUp(0) && isStuck)
         {
             Unstick();
         }
     }
+
 
     // Dit wordt aangeroepen wanneer er een andere collider wordt geraakt
     void OnCollisionEnter2D(Collision2D collision)
