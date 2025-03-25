@@ -19,7 +19,7 @@ public class BlobMovement : MonoBehaviour
 
     void Update()
     {
-        // Converteer de muispositie van scherm- naar wereldcoördinaten
+        // Converteer de muispositie van scherm- naar wereldcoÃ¶rdinaten
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         targetPosition = new Vector2(mousePosition.x, mousePosition.y);
 
